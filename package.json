@@ -2,7 +2,11 @@
   "name": "assignment03-abelmebrahtu",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "server": "npx json-server db.json",
+    "run-tests": "npx playwright test",
+    "ui-mode": "npx playwright test --ui"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -10,5 +14,9 @@
   "devDependencies": {
     "@playwright/test": "^1.49.0",
     "@types/node": "^22.10.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "json-server": "^1.0.0-beta.3"
   }
 }
