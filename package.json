@@ -5,7 +5,8 @@
   "scripts": {
     "server": "npx json-server db.json",
     "run-tests": "npx playwright test",
-    "ui-mode": "npx playwright test --ui"
+    "ui-mode": "npx playwright test --ui",
+    "clean": "rm -rf test-results"
   },
   "keywords": [],
   "author": "",
